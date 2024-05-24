@@ -61,7 +61,7 @@ namespace Mango.Services.CouponAPI.Controllers
         }
 
         [HttpGet]
-        [Route("GetCode/{code}")]
+        [Route("GetByCode/{code}")]
         public ResponseDTO GetByCode(string code)
         {
             try
